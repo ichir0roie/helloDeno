@@ -13,10 +13,13 @@
 			"runtimeExecutable": "deno",
 			"runtimeArgs": [
 				"run",
-				// "--unstable",
-				"--inspect",
-				// "--inspect-brk",
+				"--unstable",
+				// "--inspect",
+				"--inspect-brk",
 				"--allow-net",
+				"--allow-read",
+				"--allow-write",
+				"--allow-run",
 				"-A",
 				"${file}"
 				// "helloDeno.ts"
